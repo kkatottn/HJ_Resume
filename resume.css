@@ -1,12 +1,15 @@
 @media screen and (max-width: 900px){
     #navbar{
-      float:none;
-      width: 100%;
-    }
+        width: 100%;
+        
+      }
+    
+    
   }
   
   body{
     margin: 0;
+    
      
   }
   
@@ -15,7 +18,7 @@
     height: 100vh;
     padding-top: 10px;
     background-color: #9a93e6;
-    margin-top: 50px;
+    
     
   }
   
@@ -47,20 +50,31 @@
     padding-top: 10px;
     background-color: black;
   
-    
   } 
+
+  #homeButton{
+      padding-left: 30px;
+  }
   
+  #navbar-right{
+      float: right;
+  }
   #navbar a{ 
-   
+    
     color: white;
     font-weight: bold;
     font-size: 25px;
-    padding: 25px;
+    padding-right: 25px;
+    padding-left:25px;
     text-decoration: none;
    
   }
+
+  #navbar a:hover{
+      color: red;
+  }
   
-  
+ 
   #projects{
    
     background-color: #b2aed6;
@@ -148,5 +162,10 @@
     padding-top: 10px;
     padding-bottom: 10px;
    
+  }
+
+  #contact p{
+    font-size: 20px;
+
   }
   
