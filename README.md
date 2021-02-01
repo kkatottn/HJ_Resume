@@ -1,2 +1,2 @@
 # HJ_Resume
-HJ's resume website
+HJ's personal portfolio webpage
