@@ -48,7 +48,7 @@
     display: block;
     height: 40px;
     padding-top: 10px;
-    background-color: black;
+    background-color: #130d42;
   
   } 
 
@@ -71,14 +71,14 @@
   }
 
   #navbar a:hover{
-      color: red;
+      color: #9a93e6;
   }
   
  
   #projects{
    
-    background-color: #b2aed6;
-    
+    background-color: #cfc8f8;
+    padding-bottom: 50px;
     
         
   }
@@ -88,15 +88,15 @@
     text-align: center;
     
     padding-top: 20px;
-    padding-bottom: 40px;
-    color: #130d42;
+    padding-bottom: 20px;
+    color: black;
     font-weight: bold;
     text-decoration: underline;
   }
   
   #project-container{
       
-      width: 95vw;
+      width: 90vw;
       margin: auto;
       text-align: center;
       
@@ -105,18 +105,19 @@
   
   .project-tile{
     
-    width: 30%;
-    
+    width: 40%;
+    height: 40%;
     background-color: #9a93e6;
-    border: 4px solid black;
+    border: 6px solid black;
     display: inline-block;
+    
     margin-top: 30px;
+    margin-bottom: 30px;
     margin-inline-end: 10px;
     margin-inline-start: 10px;
-    
-    
-
   }
+  
+ 
   
   .project-tile img{
     
@@ -131,18 +132,23 @@
     text-align: center;
     padding-bottom: 10px;
     font-weight: bold;
-    font-size: 20px;
-    color: #130d42;
+    font-size: 25px;
+    color: black;
+    
   }
   
   .project-tile video{
-
+    
     width: 95%;
     display: block;
     margin: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+   
   }
+  #demo{
+    font-size: 25px;
+  }
+
   
   
   #profile{
@@ -165,10 +171,27 @@
   
   #contact{
     background-color: #9a93e6;
-    font-size: 35px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
    
   }
  
+  #contact button{
+
+    font-weight: bold;
+    background-color: #130d42;
+    padding:5px 15px;
+    color:white;
+    font-size: 20px;
+    border-radius: 10%;
+    border: #9a93e6;
+    transition-duration: 0.4s;
+  }
+
+  
+  #contact button:hover{
+    background-color:#9a93e6;
+    border: 4px solid #130d42;
+    color: #130d42;
+  }
