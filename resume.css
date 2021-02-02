@@ -142,13 +142,11 @@
     width: 95%;
     display: block;
     margin: auto;
-    padding-top: 5px;
+    padding-top: 72px;
+    padding-bottom: 20px;
    
   }
-  #demo{
-    font-size: 25px;
-  }
-
+ 
   
   
   #profile{
